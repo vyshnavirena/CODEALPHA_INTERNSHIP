@@ -1,0 +1,17 @@
+Vulnerability 3: Missing Input Validation
+
+Location:
+app.py - registration function
+
+Issue:
+The application accepts username and password input without
+proper validation.
+
+Risk:
+Unexpected or malicious input may cause security problems.
+
+Recommendation:
+Validate user input before processing it.
+
+Status:
+Fixed and tested successfully.
