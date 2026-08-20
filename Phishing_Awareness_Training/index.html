@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Phishing Awareness Training</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🛡️ Phishing Awareness Training</h1>
+        <p>Learn how to identify and stay safe from phishing attacks</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#learn">Learn</a>
+        <a href="#examples">Examples</a>
+        <a href="#tips">Safety Tips</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+
+        <h2>Welcome to Phishing Awareness Training</h2>
+
+        <p>
+            Phishing is a common cybersecurity attack where attackers
+            try to trick people into revealing sensitive information.
+        </p>
+
+        <button onclick="startTraining()">
+            Start Training
+        </button>
+
+    </section>
+
+    <!-- Learn Section -->
+    <section id="learn">
+
+        <h2>📚 What is Phishing?</h2>
+
+        <div class="card">
+
+            <p>
+                Phishing is a cyber attack in which attackers use
+                fake emails, messages, websites, or links to trick
+                users into sharing sensitive information.
+            </p>
+
+            <h3>Common information attackers target:</h3>
+
+            <ul>
+                <li>Passwords</li>
+                <li>Banking information</li>
+                <li>OTP or login details</li>
+                <li>Personal information</li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!-- Examples Section -->
+    <section id="examples">
+
+        <h2>📧 Phishing Examples</h2>
+
+        <div class="card">
+
+            <h3>Example 1: Fake Email</h3>
+
+            <p>
+                "Your account will be suspended.
+                Click the link immediately to verify your account."
+            </p>
+
+            <p class="warning">
+                ⚠️ Warning: Urgent messages and suspicious links
+                can be signs of phishing.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Example 2: Fake Website</h3>
+
+            <p>
+                A fake website may look similar to a real banking,
+                shopping, or social media website.
+            </p>
+
+            <p class="warning">
+                ⚠️ Always check the website address before entering
+                your information.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Safety Tips Section -->
+    <section id="tips">
+
+        <h2>🔐 Safety Tips</h2>
+
+        <div class="card">
+
+            <ul>
+                <li>✔ Check the sender's email address.</li>
+                <li>✔ Don't click suspicious links.</li>
+                <li>✔ Check the website URL carefully.</li>
+                <li>✔ Never share passwords or OTPs.</li>
+                <li>✔ Be careful with urgent messages.</li>
+                <li>✔ Verify unexpected requests through official channels.</li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz">
+
+        <h2>🧠 Phishing Awareness Quiz</h2>
+
+        <div class="quiz-card">
+
+            <p>
+                <strong>Question:</strong>
+            </p>
+
+            <p>
+                You receive an unexpected message asking you
+                to click a link immediately. What should you do?
+            </p>
+
+            <button onclick="checkAnswer(false)">
+                Click the link
+            </button>
+
+            <button onclick="checkAnswer(true)">
+                Verify the message first
+            </button>
+
+            <p id="result"></p>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            Phishing Awareness Training | Cybersecurity Project
+        </p>
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
